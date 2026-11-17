@@ -781,15 +781,16 @@ clients:
 
   - name: "Kofin PVR for Jellyfin"
     targets: [Kodi]
-    oss: https://github.com/kontell/pvr.kofin
+    oss: https://github.com/kodi-pvr/pvr.kofin
     official: false
     price:
       free: true
       paid: false
     downloads:
-      - type: github
-        owner: kontell
-        repo: pvr.kofin
+      - type: shield
+        icon: Kodi
+        content: Kodi repo
+        url: https://mirrors.kodi.tv/addons/piers/#:~:text=pvr.kofin
 
   - name: "Linthra"
     targets: [Android]
